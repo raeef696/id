@@ -20,7 +20,9 @@ header {
     width: 99px;
     height: 93px;
 }
-
+.navbar .container-fluid .navbar-brand img{
+    height: 90px;
+}
 .navbar-light .navbar-nav {
     margin: 15px;
 }
@@ -46,11 +48,12 @@ header {
 .icon-login {
     background-color: var(--master-bg);
     border-radius: 60px;
-    width: 157px;
-    height: 48px;
+    width: 137px;
+    height: 40px;
     text-align: center;
-    line-height: 45px;
+    line-height: 40px;
     transition: all .42s ease-in-out;
+    margin: 5px 0;
 }
 
 .icon-login:hover {
@@ -60,7 +63,7 @@ header {
 .icon-login a {
     padding: 20px;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
 }
 
