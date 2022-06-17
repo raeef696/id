@@ -1886,3 +1886,60 @@ input[type=number]::-webkit-outer-spin-button {
     color: #FC1313;
     font-weight: 500;
 }
+
+
+/* start page  */
+
+
+
+
+
+
+
+
+
+
+
+.number-code > div {
+  display: flex;
+}
+.number-code > div > input:not(:last-child) {
+  margin-right: calc(8px * 2);
+}
+
+.content-area-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  max-width: min(100%, 50rem);
+
+}
+
+.content-area-new input.code-input {
+  font-size: 1.5em;
+  width: 1em;
+  text-align: center;
+  flex: 1 0 1em;
+  border: .5px solid #DDD;
+  background-color: #C4C4C4;
+}
+.send-verify{
+    width: 100% !important;
+}
+.receive-code{
+    text-align: center;
+    padding: 8px;
+    line-height: 5px;
+    margin-top: 50px;
+}
+.receive-code span{
+    color: var(--master-bg);
+}
+.content-area-new input:invalid {
+  box-shadow: none;
+}
+
+
+
