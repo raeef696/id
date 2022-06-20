@@ -56,7 +56,11 @@
 .content-dash-stats .form-search{
     margin: 20px auto;
     text-align: center;
+    display: flex;
 
+}
+.content-dash-stats .form-search form{
+    width: 90%;
 }
 .content-dash-stats .form-search input{
     height: 50px;

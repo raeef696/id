@@ -258,25 +258,21 @@
 
                     <p class="title-upload-service-list">Service Icon</p>
                     <!-- Upload  -->
-                    <form id="file-upload-form" class="uploader">
-                        <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
-
-                        <label for="file-upload" id="file-drag">
-                            <img id="file-image" src="#" alt="Preview" class="hidden">
-                            <div id="start">
-                                <i class="fa fa-download" aria-hidden="true"></i>
-                                <div>Upload an image or drag and drop PNG, JPG</div>
-                                <div id="notimage" class="hidden">Please select an image</div>
-                                <span id="file-upload-btn" class="btn btn-primary">Select a image</span>
-                            </div>
-                            <div id="response" class="hidden">
-                                <div id="messages"></div>
-                                <progress class="progress" id="file-progress" value="0">
-                                    <span>0</span>%
-                                </progress>
-                            </div>
-                        </label>
-                    </form>
+                    <article class="product-image">
+                      <div class="upload__box">
+                          <div class="upload__btn-box">
+                                  <i class="bi bi-cloud-upload"></i>
+                            <label class="upload__btn">
+                              <p>Upload images</p>
+                              <input type="file" multiple="" data-max_length="20" class="upload__inputfile">
+                            </label>
+                            <p>Upload an image
+                              PNG, JPG</p>
+                          </div>
+                          <div class="upload__img-wrap"></div>
+                        </div>
+                  </article>
+  
             </div>
         </article>
         <article>
@@ -331,9 +327,11 @@
   <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
   <script src="assets/vendor/tinymce/tinymce.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/id.js"></script>
+  <script src="assets/js/Imgupload.js"></script>
 
 </body>
 
