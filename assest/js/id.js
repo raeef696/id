@@ -6,13 +6,17 @@
 // $('.navbar-light .navbar-nav .nav-link').on('click', function () {
 //     $(this).addClass('active').parent.siblings().removeClass('active');
 //   });
-$(document).ready(function () {
+    
 
+$(document).ready(function () {
   $('.sigle-img-thmu div img').on('click', function () {
     // $(this).addClass('active-thumbnis').siblings().removeClass('active-thumbnis');
     $('.img-thmu img').hide().attr('src', $(this).attr('src')).fadeIn(300);
     });
-
+    $('.cart-shop button').click(function(){
+      $(this).toggleClass("click");
+      $('.sidebar').toggleClass("show");
+    });
   });
   
   function decreaseCount(a, b) {
