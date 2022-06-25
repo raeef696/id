@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="./assest/imges/WhatsApp_Image_2022-02-03_at_15.28.53-removebg-preview.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assest/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assest/css/id.css">
+  <!-- <link rel="stylesheet" href="./assest/css/idrtl.css"> -->
+    <title>Employee Information</title>
+</head>
+<body>
+    <header>
+        <article class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <img src="./assest/imges/original-logo.png" alt="" srcset="" width="99" height="93">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Shop</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Our Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                    <div class="d-flex">
+                        <div class="icon-login">
+                            <a href="">log in</a>
+                        </div>
+                        <div class="language">
+                          <a href="">Ar</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </article>
+    </header>
+
+<!-- start tabs  -->
+<section>
+    <div class="container">
+        <div class="title-page-employee-information">
+            <h2>Employee Information</h2>
+        </div>
+        <div class="content-employee-information">
+            <article>
+                <form class="row g-3">
+                    <div class="">
+                        <label for="inputNanme4" class="form-label">Employee Name</label>
+                        <input type="text" class="form-control" id="inputNanme4" placeholder="write your Company Name here ">
+                    </div>
+                    <div class="">
+                        <label for="inputNanme4" class="form-label">Employee Number</label>
+                        <input type="text" class="form-control" id="inputNanme4" placeholder="write your Company Name here  ">
+                    </div>
+                    <div class="">
+                        <label for="inputNanme4" class="form-label">Department</label>
+                        <input type="text" class="form-control" id="inputNanme4" placeholder="write your Company Name here   ">
+                    </div>
+                    <div class="">
+                        <label for="inputNanme4" class="form-label">Number Phone</label>
+                        <input type="text" class="form-control" id="inputNanme4" placeholder="write your Number Phone   ">
+                    </div>
+                    <div class="">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="write your Email">
+                    </div>
+                    <div class="grup-input-profile col-md-6">
+                        <label for="">Your Photo </label>
+                        <div class="file-upload">
+                            <div class="file-upload-select">
+                            <div class="file-select-name">upload your photo</div> 
+                            <input type="file" name="file-upload-input" id="file-upload-input">
+                                <div class="file-select-button" >
+                                    <i class="fa fa-upload" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Gender</label>
+                        <select id="inputState" class="form-select">
+                          <option selected="">select gender</option>
+                          <option>...</option>
+                        </select>
+                      </div>
+
+
+                  </form>
+            </article>
+            <article>
+                <div class="content-card-template">
+                    <div class="front-card-template">
+                        <div class="title-text-card-template">
+                            <h2>Company logo</h2>
+                        </div>
+                        <div class="img-card-template">
+                            <div class="">
+                                <img src="./assest/imges/Mask.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="front-card-information">
+                            <div>
+                                <h3>{{EmployeeEnglishName}}</h3>
+                                <p>{{EmployeeDesignation}}</p>
+                            </div>
+                            <div>
+                                <p>Employee No:</p>
+                                <h3>{{EmployeeNumber}}</h3>
+                            </div>
+                            <div>
+                                <p>Department:</p>
+                                <p>{{EmployeeDepartment}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="front-card-template">
+                        <div class="title-text-back-card-template">
+                            <h2>Company logo</h2>
+                        </div>
+                        <div class="information-text-back-card-template">
+                            <p>If found, please return to</p>
+                            <p>"{{EmployeeDepartment}}"</p>
+                            <p>in {{CompanyName}}</p>
+                            <p>using the contact information below.</p>
+                        </div>
+                        <div class="back-color"></div>
+                        <div class="information-text-back-card-template companyAddress-card-template">
+                            <p>{{CompanyAddress}}</p>
+                            <p>{{CompanyAddress2}}</p>
+                            <p>{{Companycountry}} - C.R</p>
+                            <p>{{CompanyRegistrationNumber}}</p>
+                            <p><span>Tel:</span>{{CompanyPhone}}</p>
+                            <p><span>Fax:</span>{{CompanyFax}}</p>
+                            <p><span>Email:</span>{{CompanyEmail}}</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+</section>
+
+
+<script src="./assest/js/bootstrap.min.js"></script>
+<script src="./assest/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./assest/js/id.js"></script>
+<script src="./assest/js/upload.js"></script>
+
+
+</body>
+</html>

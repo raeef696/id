@@ -2111,3 +2111,194 @@ input[type=number]::-webkit-outer-spin-button {
 .order-shoping-cart div:last-child a{
     color: #2D89C8;
 }
+
+
+/* start page Choose ID Card Template */
+
+.tabs-card-template .nav{
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+
+}
+.tabs-card-template .nav .nav-item{
+    width: 50%;
+    background-color: #FFFFFF;
+}
+.tabs-card-template .nav .nav-item .nav-link{
+   color: #000; 
+    width: 100%;
+    font-weight: 600;
+}
+.tabs-card-template .nav .nav-item:first-child .nav-link.active{
+    border-radius: 5px 0px 0px 5px;
+
+}
+.tabs-card-template .nav .nav-item .nav-link.active{
+    color: #FFFFFF;
+    background-color: #2D89C8;
+    border-radius: 0px 5px 5px 0px;
+}
+.content-card-template{
+    width: 49%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.front-card-template{
+    width: 48%;
+    border: .9px solid #C4C4C4;
+    border-radius: 10px;
+}
+.img-card-template{
+    background-color: #f68a28;
+    height: 80px;
+    margin: 50px 0;
+}
+.img-card-template img{
+    width: 150px;
+    height: 150px;
+    transform: translateY(-30px);
+    border-radius: 50%;
+    border: .9px solid #BBBBBB;
+}
+.title-text-card-template{
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+.title-text-card-template h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.front-card-information div h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+
+}
+.front-card-information div{
+    padding: 8px 0;
+}
+.front-card-information div p{
+    font-size: 14px;
+    color: gray;
+    line-height: 10px;
+}
+.title-text-back-card-template{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.title-text-back-card-template::after{
+    content: " ";
+    width: 40px;
+    height: 60px;
+    background-color: #f68a28;
+    position: absolute;
+    top: -22px;
+    left: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+.title-text-back-card-template::before{
+    content: " ";
+    width: 40px;
+    height: 60px;
+    background-color: #f68a28;
+    position: absolute;
+    top: -22px;
+    right: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.title-text-back-card-template h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.information-text-back-card-template p{
+    line-height: 10px;
+    font-size: 14px;
+    color: gray;
+}
+.front-card-template .back-color{
+    background-color: #000; 
+    height: 40px; 
+    width: 100.1%; 
+    border:0; 
+    padding:0;
+    margin: 20px 0;
+}
+.companyAddress-card-template{
+    padding: 8px 0;
+
+}
+.companyAddress-card-template p{
+    font-size: 12px;
+    line-height: 5px;
+}
+.content-card-all{
+    display: flex; 
+    justify-content: space-between;
+    margin: 25px 0;
+}
+/* end page Choose ID Card Template */
+
+/* start page Employee Information  */
+.title-page-employee-information{
+    text-align: center;
+    margin: 50px 0;
+}
+.title-page-employee-information h2{
+    font-size: 26px;
+}
+.content-employee-information{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.content-employee-information > article{
+    width: 48%;
+}
+.content-employee-information .content-card-template{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.file-upload .file-upload-select {
+	display: block;
+    background: #FFFFFF;
+    cursor: pointer;
+	text-align: left;
+	overflow: hidden;
+	position: relative;
+	border-radius: 6px;
+    border: 1px solid #ced4da;
+    width: 95%;
+    height: 37px;
+}
+.file-upload .file-upload-select .file-select-button {
+   position: relative;
+   left: 53%;
+	padding: 10px;
+	display: inline-block;
+}
+.file-upload .file-upload-select .file-select-name {
+    display: inline-block;
+	padding: 5px 10px;
+    color: grey;
+}
+
+.file-upload .file-upload-select input[type="file"] {
+	display: none;
+}
+.grup-input-profile label{
+    padding-bottom: 9px;
+}
+.content-employee-information article form div select{
+    color: gray;
+}
+.content-employee-information article form div input:focus,
+.content-employee-information article form div select:focus{
+    box-shadow: none;
+}
+/* end page Employee Information */

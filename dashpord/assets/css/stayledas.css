@@ -166,9 +166,9 @@
     width: 95%;
 }
 .file-upload .file-upload-select .file-select-button {
-   position: relative;
-   left: 53%;
-	padding: 10px;
+    position: relative;
+    left: 53%;
+    padding: 10px;
 	display: inline-block;
 }
 .file-upload .file-upload-select .file-select-name {
@@ -660,3 +660,143 @@
     border-bottom: 0;
 
 }
+
+
+/* start page Card Printing */
+.content-card-template{
+    width: 49%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.front-card-template{
+    width: 48%;
+    border: .9px solid #C4C4C4;
+    border-radius: 10px;
+}
+.img-card-template{
+    background-color: #f68a28;
+    height: 80px;
+    margin: 50px 0;
+}
+.img-card-template img{
+    width: 150px;
+    height: 150px;
+    transform: translateY(-30px);
+    border-radius: 50%;
+    border: .9px solid #BBBBBB;
+}
+.title-text-card-template{
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+.title-text-card-template h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.front-card-information div h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+
+}
+.front-card-information div{
+    padding: 8px 0;
+}
+.front-card-information div p{
+    font-size: 14px;
+    color: gray;
+    line-height: 10px;
+}
+.title-text-back-card-template{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.title-text-back-card-template::after{
+    content: " ";
+    width: 40px;
+    height: 60px;
+    background-color: #f68a28;
+    position: absolute;
+    top: -22px;
+    left: 0;
+    border-radius: 0px 10px 10px 0px;
+}
+.title-text-back-card-template::before{
+    content: " ";
+    width: 40px;
+    height: 60px;
+    background-color: #f68a28;
+    position: absolute;
+    top: -22px;
+    right: 0;
+    border-radius: 10px 0px 0px 10px;
+}
+.title-text-back-card-template h2{
+    font-size: 18px;
+    font-weight: 600;
+}
+.information-text-back-card-template p{
+    line-height: 10px;
+    font-size: 14px;
+    color: gray;
+}
+.front-card-template .back-color{
+    background-color: #000; 
+    height: 40px; 
+    width: 100.1%; 
+    border:0; 
+    padding:0;
+    margin: 20px 0;
+}
+.companyAddress-card-template{
+    padding: 8px 0;
+
+}
+.companyAddress-card-template p{
+    font-size: 12px;
+    line-height: 5px;
+}
+.content-card-printing{
+    display: flex;
+    width: 140%;
+    margin: 50px 20px ;
+    /* border: 1px solid; */
+}
+.content-card-printing article{
+    width: 50%;
+    /* border: 1px solid; */
+}
+.content-card-printing article form div input{
+    width: 105%;
+}
+.content-card-printing article form div input:focus{
+    box-shadow: none;
+}
+.content-card-printing article form div input::placeholder
+{
+    color: #000;
+}
+.content-card-printing article form{
+    width: 80% !important;
+}
+.content-card-printing article form div select:focus{box-shadow: none;}
+.content-card-printing article .content-card-template{
+    width: 100%;
+}
+.btn-card-printing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-card-printing button{
+    width: 40%;
+    background-color: #2D89C8;
+}
+.btn-card-printing button:hover{
+    background-color: #2D89C8;
+}
+/* End page Card Printing */
