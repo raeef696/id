@@ -719,11 +719,11 @@ header {
 /* start contact  */
 .img-map {
     width: 100%;
-    height: 400px;
+    height: 500px;
 
 }
 
-.img-map img {
+.img-map iframe {
     width: 100%;
     height: 100%;
 }
