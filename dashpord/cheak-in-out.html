@@ -11,7 +11,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/stayledas.css">
-    <title>Print Authorization</title>
+    <title>Cheak In / Out</title>
 </head>
 
 <body class="bg-index">
@@ -114,20 +114,84 @@
                     </form>
                 </div>
                 <section>
-                    <div class="d-flex">
-                        <div style="width: 80%; margin: 15px; ">
-                            <div class="centered" >
-                                <div id="editor" >
-                        
-                                </div>
+                    <div style="width: 95%;">
+                        <div class="title-table-peple">
+                            <div class="content-title-table-peple">
+                                <h2>People</h2>
                             </div>
-                            <form action="" class="form-print-authorization">
-                                <input type="button" value="Print Authorization" class="print-authorization">
-                            </form>
                         </div>
-                        <div style="width:25%;">
-                            <img src="./assets/imges/ased.png" alt="" srcset="" width="100%" height="100%">
-                        </div>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                    <th scope="col">NAME</th>
+                                    <th scope="col">DEPARTMENT</th>
+                                    <th scope="col">Cheak in</th>
+                                    <th scope="col">Cheak in location</th>
+                                    <th scope="col">Cheak out</th>
+                                    <th scope="col">Cheak out location</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>
+                                        <img src="./assets/imges/Ellipse 26.png" alt="" srcset="">
+                                    </td>
+                                    <td>
+                                        Josh Brolin
+                                    </td>
+                                    <td>Development</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>
+                                        <img src="./assets/imges/Ellipse 26.png" alt="" srcset="">
+                                    </td>
+                                    <td>
+                                        Josh Brolin
+                                    </td>
+                                    <td>Development</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>
+                                        <img src="./assets/imges/Ellipse 26.png" alt="" srcset="">
+                                    </td>
+                                    <td>
+                                        Josh Brolin
+                                    </td>
+                                    <td>Development</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>
+                                        <img src="./assets/imges/Ellipse 26.png" alt="" srcset="">
+                                    </td>
+                                    <td>
+                                        Josh Brolin
+                                    </td>
+                                    <td>Development</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                    <td>02 : 22 am</td>
+                                    <td>lorem ipsum</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </section>
             </aside>
@@ -144,20 +208,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    <script src="./assets/js/ckeditor.js"></script>
     <script src="./assets/js/main.js"></script>
-    <script>
-        ClassicEditor
-            .create( document.querySelector( '#editor' ), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-            } )
-            .then( editor => {
-                window.editor = editor;
-            } )
-            .catch( err => {
-                console.error( err.stack );
-            } );
-    </script>
 </body>
 
 </html>

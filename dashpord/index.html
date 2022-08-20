@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="./assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/stayledas.css">
     <title>Document</title>
 </head>
+
 <body class="bg-index">
     <section>
         <article class="content-dash">
@@ -21,10 +28,11 @@
                         <li>
                             <img src="./assets/imges/Iconly-Light-outline-Category.png" alt="">
                             <a href="">
-                            Company Profile</a></li>
+                                Company Profile</a>
+                        </li>
                         <li>
-                            <i class="fa fa-user-o" aria-hidden="true"></i>                            <a href="">
-                            User Srevice</a>
+                            <i class="fa fa-user-o" aria-hidden="true"></i>
+                            <a href="">User Srevice</a>
                         </li>
                         <li>
                             <i class="fa fa-address-card-o" aria-hidden="true"></i>
@@ -47,8 +55,12 @@
                             <a href="">Print Definition</a>
                         </li>
                         <li>
-                            <i class="fa fa-cog" aria-hidden="true"></i>
-                            <a href="">Profile Setting</a>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <a href="">Cheak  In / Out</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <a href="">Requests</a>
                         </li>
                     </ul>
                 </div>
@@ -59,15 +71,49 @@
                         <div>
                             <i class="fa fa-search" aria-hidden="true"></i>
                             <input type="search" name="" id="" placeholder="search">
+                            <button type="button" class="btn position-relative tell" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                <span
+                                    class="position-absolute top-6 start-100 translate-middle p-2  border border-light  rounded-circle">
+                                    <span class="visually-hidden">New alerts</span>
+                                </span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-custum-new-alert dropdown-menu-end dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+                                <li>
+                                    <div class="title-custum-new-alert">
+                                        <img src="./assets/imges/Ellipse 26.png" alt="">
+                                        <div>
+                                            <p>Ahmed Mohamed asked permission
+                                                to change the profile picture</p>
+                                                <span>since 2 hour</span>
+                                        </div>
+                                    </div>
+                                    <div class="anker-custum-new-alert">
+                                        <a href="">Accept</a>
+                                        <a href="">Reject</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title-custum-new-alert">
+                                        <div>
+                                            <p>Ahmed Mohamed asked permission
+                                                to change the profile picture</p>
+                                                <span>since 2 hour</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="title-custum-new-alert">
+                                        <div>
+                                            <p>Ahmed Mohamed asked permission
+                                                to change the profile picture</p>
+                                                <span>since 2 hour</span>
+                                        </div>
+                                    </div>
+                                </li>
+                              </ul>
                         </div>
                     </form>
-                    <button type="button" class="btn position-relative tell">
-                        <i class="fa fa-bell-o" aria-hidden="true"></i>
-                        <span class="position-absolute top-6 start-100 translate-middle p-2  border border-light  rounded-circle">
-                          <span class="visually-hidden">New alerts</span>
-                        </span>
-                      </button>
-
                 </div>
                 <section>
                     <div class="title-quick-stats">
@@ -113,9 +159,9 @@
                                     <label for="">Company Logo </label>
                                     <div class="file-upload">
                                         <div class="file-upload-select">
-                                        <div class="file-select-name">No file chosen...</div> 
-                                        <input type="file" name="file-upload-input" id="file-upload-input">
-                                            <div class="file-select-button" >
+                                            <div class="file-select-name">No file chosen...</div>
+                                            <input type="file" name="file-upload-input" id="file-upload-input">
+                                            <div class="file-select-button">
                                                 <i class="fa fa-upload" aria-hidden="true"></i>
                                             </div>
                                         </div>
@@ -154,14 +200,133 @@
             </aside>
             <aside style=" width: 25%;">
                 <div class="may-day">
-                    <div>
-                        <div>
-                            <span>2 May 2022</span>
+                    <div class='bg'>
+                        <div class='todo'>
+                            <div class="oppener">
+                                <span class="button-overlay">
+                                    <button id="open_todo"><i class="fa fa-plus"></i>
+                                    </button></span>
+                            </div>
+                            <div id="overlay"></div>
+                            <div id="card-main">
+
+                                <button id='close-icon'><span class="close" title="Close">&times;</span></button>
+
+                                <div class='card-content'>
+
+                                    <div class='test'>
+                                        <label>Task</label>
+                                        <input id='title' type="text" autocomplete="off" spellcheck="false"
+                                            maxlength="10" placeholder="e.g. Lunch, Meeting, Party..">
+                                        <span data-count='title' class='textCounter'></span>
+                                        <span class='notice'></span>
+                                    </div>
+                                    <div class='test'>
+                                        <label>Place</label>
+                                        <input id='location' type="text" maxlength="10"
+                                            placeholder="e.g. Home, Supermarket, Library..">
+                                        <span data-count='location' class='textCounter'></span>
+                                        <span class='notice'></span>
+                                    </div>
+
+                                    <div class='test'>
+                                        <label>Note</label>
+                                        <input id='description' type="text" maxlength="50"
+                                            placeholder="e.g. hangout with dudes..">
+                                        <span data-count='description' class='textCounter'></span>
+                                    </div>
+                                </div>
+                                <div class='card-content02'>
+                                    <div class='set-priority'>
+                                        <h3>Set Time</h3>
+                                        <input type='time'>
+                                    </div>
+
+
+                                    <div class='set-priority'>
+                                        <h3>Set date</h3>
+                                        <input  id='datepicker' placeholder='dd/mm/yyyy' >
+                                    </div>
+
+                                    <div class='set-priority'>
+                                        <h3>Notify Me</h3>
+
+                                        <input id="tmp" type="checkbox">
+                                        <label for="tmp" class="notification">
+                                            <span class="left"><i class="fa fa-bell-o" aria-hidden="true"></i></span>
+                                            <span class="right"><i class="fa fa-bell-slash-o"
+                                                    aria-hidden="true"></i></span>
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <button id='submit' role="button"><i class="fa fa-check"></i>
+                                    <span class='ripple'></span>
+                                </button>
+
+                            </div>
+
+                            <div class="head">
+                                <div class="head-overlay"></div>
+
+                                <div class="date-container">
+                                    <span class='t-day'></span>
+                                    <span class="fulldate">
+                                        <span class="day"></span>
+                                        <span class="date"></span>
+                                        <span class="timing"></span>
+                                    </span>
+                                </div>
+                                <div class='task-info'>
+                                    <span class='counter'>No Tasks Pending</span>
+                                </div>
+                            </div>
+                            <div class="list-container">
+                                <div class="pre-loading">
+                                    <div class='simulate-container'>
+                                        <div class="simulatepost">
+                                            <div class="circle"></div>
+
+                                            <div class="right-side">
+                                                <div class="top-line"></div>
+                                                <div class="center-line"></div>
+                                                <div class="bottom-line"></div>
+                                            </div>
+                                        </div>
+                                        <div class="sp_02"></div>
+                                        <div class="sp_03"></div>
+                                        <div class="sp_04"></div>
+                                        <div class="sp_05"></div>
+                                    </div>
+                                    <div class="main-cont">
+                                        <i class="fa fa-signal"></i>
+                                        <h1>No tasks for today</h1>
+                                        <h3>Enjoy your <span class='wel-day'></span></h3>
+                                    </div>
+                                </div>
+                                <ul class="list">
+
+                                </ul>
+                            </div>
+                            <div class="main-message">
+                                <div class="message">
+                                    <h3>Delete Task?</h3>
+                                    <p></p>
+                                </div>
+                                <div class="answer">
+                                    <button id='no'>Discard</button>
+                                    <button id='yes'>Confirm</button>
+
+                                </div>
+                                <svg class="circular" viewBox="25 25 50 50">
+                                    <circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="2"
+                                        stroke-miterlimit="10" />
+                                </svg>
+
+                            </div>
                         </div>
-                        <div>
-                            <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-                            <i class="fa fa-calendar" aria-hidden="true"></i>
-                        </div>
+                    </div>
+                    <div class='credit-list'>
                     </div>
                 </div>
                 <div class="content-rating">
@@ -186,7 +351,7 @@
                     </div>
                 </div>
                 <div class="img-aside">
-                        <img src="./assets/imges/Evolis-id-card-printers-ireland.png" alt="" srcset="">
+                    <img src="./assets/imges/Evolis-id-card-printers-ireland.png" alt="" srcset="">
                 </div>
             </aside>
         </article>
@@ -195,8 +360,29 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js"
+        integrity="sha512-Gk+uNk8NWN235mIkS6B7/424TsDuPDaoAsUekJCKTWLKP6wlaPv+PBGfO7dbvZeibVPGW+mYidz0vL0XaWwz4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+        integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+        integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/dashmain.js"></script>
+
+
+
+    <script>
+
+    </script>
 </body>
+
 </html>

@@ -1094,7 +1094,13 @@ body{
     border: .9px solid #C4C4C4;
     outline: 0;
 }
-
+.input-add-packages select{
+    padding: 5px 10px;
+    margin: 10px 0;
+    border: .9px solid #C4C4C4;
+    outline: 0;
+    color: #827C75;
+}
 /* end page Add Packages */
 
 /* start page product  */
@@ -1374,8 +1380,8 @@ body{
   width: 100px;
   padding: 0 10px;
   margin-bottom: 12px;
-  
 }
+
 .upload__img-close {
   width: 24px;
   height: 24px;
