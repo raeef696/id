@@ -49,14 +49,51 @@
       <form class="search-form d-flex align-items-center" method="POST" action="#">
         <input type="text" name="query" placeholder="Search" title="Enter search keyword">
         <button type="submit" title="Search"><i class="bi bi-search"></i></button>
-        <button type="button" class="btn position-relative tell">
+        <button type="button" class="btn position-relative tell" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
           <i class="fa fa-bell-o" aria-hidden="true"></i>
-          <span class="position-absolute top-6 start-100 translate-middle p-2  border border-light  rounded-circle">
-            <span class="visually-hidden">New alerts</span>
+          <span
+              class="position-absolute top-6 start-100 translate-middle p-2  border border-light  rounded-circle">
+              <span class="visually-hidden">New alerts</span>
           </span>
-        </button>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-custum-new-alert dropdown-menu-end dropdown-menu-start" aria-labelledby="dropdownMenuButton1">
+          <li>
+              <div class="title-custum-new-alert">
+                  <img src="./assets/img/Ellipse 26.png" alt="">
+                  <div>
+                      <p>Ahmed Mohamed asked permission
+                          to change the profile picture</p>
+                          <span>since 2 hour</span>
+                  </div>
+              </div>
+              <div class="anker-custum-new-alert">
+                  <a href="">Accept</a>
+                  <a href="">Reject</a>
+              </div>
+          </li>
+          <li>
+              <div class="title-custum-new-alert">
+                  <div>
+                      <p>Ahmed Mohamed asked permission
+                          to change the profile picture</p>
+                          <span>since 2 hour</span>
+                  </div>
+              </div>
+          </li>
+          <li>
+              <div class="title-custum-new-alert">
+                  <div>
+                      <p>Ahmed Mohamed asked permission
+                          to change the profile picture</p>
+                          <span>since 2 hour</span>
+                  </div>
+              </div>
+          </li>
+        </ul>
+
       </form>
-    </div><!-- End Search Bar -->
+    </div>
+    <!-- End Search Bar -->
 
 
 
