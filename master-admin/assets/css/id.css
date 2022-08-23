@@ -1450,9 +1450,9 @@ body{
     margin: 20px auto;
     text-transform: uppercase;
 }
-.title-text-card-template h2{
-    font-size: 18px;
-    font-weight: 600;
+.title-text-card-template img{
+    width: 100px;
+    height: 100px;
 }
 .front-card-information div h3{
     font-size: 18px;
@@ -1493,9 +1493,9 @@ body{
     right: 0;
     border-radius: 10px 0px 0px 10px;
 }
-.title-text-back-card-template h2{
-    font-size: 18px;
-    font-weight: 600;
+.title-text-back-card-template img{
+    width: 100px;
+    height: 100px;
 }
 .information-text-back-card-template p{
     line-height: 10px;
@@ -1577,3 +1577,38 @@ body{
     color: #000;
 
 }
+#rememberMe {
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border: 1px solid #ccc;
+    border-radius: .1875rem;
+    box-sizing: border-box;
+    display: block;
+    font-size: .875rem;
+    margin-bottom: 1rem;
+    padding: .275rem;
+    width: 100%;
+  }
+  
+  #rememberMe[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: inline-block;
+    width: auto;
+  }
+  .rememberMe{
+    /* width: 50%; */
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+  }
+
+  #rememberMe {
+    color: #666;
+    font-size: .875rem;
+    border: 0;
+    text-align: left;
+    padding-top: 8.5px;
+  }

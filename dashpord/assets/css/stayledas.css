@@ -653,9 +653,9 @@
     margin: 20px auto;
     text-transform: uppercase;
 }
-.title-text-card-template h2{
-    font-size: 18px;
-    font-weight: 600;
+.title-text-card-template img{
+    width: 100px;
+    height: 100px;
 }
 .front-card-information div h3{
     font-size: 18px;
@@ -696,9 +696,9 @@
     right: 0;
     border-radius: 10px 0px 0px 10px;
 }
-.title-text-back-card-template h2{
-    font-size: 18px;
-    font-weight: 600;
+.title-text-back-card-template img{
+    width: 100px;
+    height: 100px;
 }
 .information-text-back-card-template p{
     line-height: 10px;
@@ -812,6 +812,28 @@ ul {
     position: relative;
     border-bottom: 5px solid #004973;
 } 
+.custum-content-card-template{
+    width: 100%;
+}
+.multi-custum-content-card-template{
+    width: 100%;
+    margin-top: 10px;
+}
+/* .custum-content-card-template .title-text-card-template img{
+    width: 60px;
+    height: 60px;
+} */
+.custum-content-card-template .front-card-information div h3{
+    font-size: 16px;
+}
+.grup-input-profile button{
+    padding: 10px 50px;
+    background-color: #2D89C8;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 500;
+    margin-top: 20px;
+}
 .todo:before {
     position: absolute;
     content: '';
