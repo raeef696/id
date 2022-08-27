@@ -2417,3 +2417,14 @@ input[type=number]::-webkit-outer-spin-button {
 .custum-grup-input-profile label{
     font-size: 22px;
 }
+.custum-grup-input-profile .file-upload-select{
+    border: 0;
+    height: 47px;
+}
+.contener-remember-me{
+    width: 50%;
+    margin: auto auto;
+}
+.cnontent-description-product .modal-body form input{
+    box-shadow: none;
+}

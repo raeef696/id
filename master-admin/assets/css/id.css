@@ -105,11 +105,12 @@ body{
     display: flex;
     align-items: center;
 }
-.grup-input-login form label{
+.grup-input-login form>label{
     font-size: 20px;
     padding: 10px 0;
 }
-.grup-input-login form input{
+
+.grup-input-login form .input-login{
     width: 100%;
     height: 40px;
     outline: 0;
@@ -145,15 +146,19 @@ body{
     color: red;
     
 }
-.grup-input-login form input[type="button"]{
-    background-color: #2D89C8;
-    width: 70%;
-    margin: 30px auto;
-    color: #FFFFFF;
+.grup-input-login form .button-login{
+    width: 100%;
+    height: 40px;
+    outline: 0;
+    padding: 0 8px;
+    border: 0;
     border-radius: 5px;
-    /* font-size: 20px; */
+    background-color: #2D89C8;
+    color: #FFFFFF;
+    margin: 30px auto;
     font-weight: 600;
 }
+
 
 
 /* start  */
@@ -1577,38 +1582,16 @@ body{
     color: #000;
 
 }
-#rememberMe {
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    border: 1px solid #ccc;
-    border-radius: .1875rem;
-    box-sizing: border-box;
-    display: block;
-    font-size: .875rem;
-    margin-bottom: 1rem;
-    padding: .275rem;
-    width: 100%;
-  }
-  
-  #rememberMe[type="checkbox"] {
-    -webkit-appearance: checkbox;
-       -moz-appearance: checkbox;
-            appearance: checkbox;
-    display: inline-block;
-    width: auto;
-  }
-  .rememberMe{
-    /* width: 50%; */
-    /* margin: auto; */
-    display: flex;
-    justify-content: center;
-  }
 
-  #rememberMe {
-    color: #666;
-    font-size: .875rem;
-    border: 0;
+.contener-master-remember-me{
     text-align: left;
-    padding-top: 8.5px;
-  }
+}
+.contener-master-remember-me .form-check-input{
+    box-shadow: none;
+}
+
+ .form-check-input:checked{
+    background-color: #3162A9;
+    border-color:#3162A9;
+    color: #3162A9;
+}
